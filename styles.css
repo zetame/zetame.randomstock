@@ -1,5 +1,7 @@
 h1 {
+    background-image: linear-gradient(green, red);
     background-color: green;
+    text-shadow: 2px 2px;
     font-size: 100px;
     font-weight: bold;
     font-style: italic;
@@ -11,14 +13,17 @@ h1 {
 
 button {
     font-family: fantasy;
+    font-size:30px;
     size: 200px;
     background-color: red;
     padding: 50px 100px 50px 100px;
     margin: 50px 50px 50px 50px;
-    color: green;
+    color: darkblue;
+    text-shadow: 2px 2px;
     align-self: center;
     margin-left: 800px;
     border-radius: 30%;
+    box-shadow: 10px 10px;
 }
 
 .center {
@@ -34,4 +39,20 @@ body {
 
 p {
     color: red;
+}
+
+.Next {
+
+    font-family: fantasy;
+    font-size:30px;
+    size: 100px;
+    background-color: yellow;
+    padding: 50px 100px 50px 100px;
+    margin: 50px 50px 50px 50px;
+    color: darkblue;
+    text-shadow: 2px 2px;
+    align-self: flex-start;
+    margin-left: 800px;
+    border-radius: 30%;
+    box-shadow: 10px 10px;
 }

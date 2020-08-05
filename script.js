@@ -4,3 +4,4 @@ function randomStock(){
     alert("Last Chance!");
     alert("Check for New Stock Tomorrow")
 }
+
