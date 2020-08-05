@@ -2,5 +2,5 @@ function randomStock(){
     document.getElementById("stock").innerHTML = "Tesla";
     alert("Buy NOW!");
     alert("Last Chance!");
-    prompt("check robinhood");
+    alert("Check for New Stock Tomorrow")
 }
