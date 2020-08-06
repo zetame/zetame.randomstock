@@ -3,30 +3,17 @@
 <head>
     <header><link rel="stylesheet" href="styles.css"></header>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Random Stock</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>$(document).ready(function(){
-        $("button").click(function(){
-          $("p").toggle();
-        });
-      });
-       </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Random Character</title>
 </head>
-<header><link rel="stylesheet" href=""></header>
-
 <body>
+    <div><h1>What Character Are You?</h1>
+    </div>
     <div>
-    <h1> Random Stock </h1>
+        <button id="character" onclick="random()">Guess?</button>
     </div>
-    <div class="StockButton">
-        <button id="stock" onclick="randomStock()">Random Stock</button>
-        <p>LET IT GO!</p>
-    </div>
-    <nav> <button id="Next">Next Stock</button></nav>
-    <div>
-      <img src="https://www.teslarati.com/wp-content/uploads/2020/04/tesla-model-y-service-center-scaled.jpg" alt="tesla" class="center">
-    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

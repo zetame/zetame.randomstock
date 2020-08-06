@@ -1,58 +1,30 @@
 h1 {
-    background-image: linear-gradient(green, red);
-    background-color: green;
-    text-shadow: 2px 2px;
-    font-size: 100px;
-    font-weight: bold;
-    font-style: italic;
+    font-family: fantasy;
+    color: yellow;
     text-align: center;
-    margin: 50px 0 50px 0;
-    border-radius: 30%;
+    font-size: 100px;
+    text-shadow: 2px 2px;
 }
 
+body {
+    background-color: aquamarine;
+    background-image: linear-gradient(red,blue,white)
+}
 
 button {
     font-family: fantasy;
-    font-size:30px;
-    size: 200px;
+    font-size:70px;
+    width: 500px;
+    height: 400px;
     background-color: red;
     padding: 50px 100px 50px 100px;
     margin: 50px 50px 50px 50px;
-    color: darkblue;
+    color: black;
     text-shadow: 2px 2px;
     align-self: center;
     margin-left: 800px;
     border-radius: 30%;
     box-shadow: 10px 10px;
-}
 
-.center {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
-body {
-    background-image: linear-gradient(black,gray, white);
-}
-
-p {
-    color: red;
-}
-
-.Next {
-
-    font-family: fantasy;
-    font-size:30px;
-    size: 100px;
-    background-color: yellow;
-    padding: 50px 100px 50px 100px;
-    margin: 50px 50px 50px 50px;
-    color: darkblue;
-    text-shadow: 2px 2px;
-    align-self: flex-start;
-    margin-left: 800px;
-    border-radius: 30%;
-    box-shadow: 10px 10px;
 }
